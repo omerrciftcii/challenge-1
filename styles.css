@@ -71,11 +71,11 @@ body {
 }
 
 body {
-  margin: 0px;
+  margin: 0;
 }
 h1 {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 .section {
   margin: 0px;
@@ -86,9 +86,7 @@ h1 {
   display: flex;
   justify-content: end;
 }
-nav-items {
-  align-self: stretch;
-}
+
 a {
   color: grey;
   text-decoration: none;
@@ -337,7 +335,7 @@ ul li {
   align-items: center;
   align-content: center;
   color: black;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   height: 600px;
   flex-direction: column;
 }
@@ -356,12 +354,10 @@ ul li {
   display: block;
   color: #999b99;
   font-weight: bold;
-  color: #009cde;
   font-size: 18px;
   margin: 5px;
 }
 .title-text {
-  font-size: 16;
   font-weight: bold;
   margin: 5px;
 }
